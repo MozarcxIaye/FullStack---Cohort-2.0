@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Kreon&family=Red+Hat+Display:wght@400;500;600;700&family=Roboto+Slab:wght@300;400;600;800&family=Rubik:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 9rem;
+    height: 4rem;
+    gap: 4rem;
+    border-bottom: 1px solid #8f8e8e20;
+    box-shadow: 0px 0px 3px #8f8e8e;
+}
+
+.nav-logo img {
+    width: 130px;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 2.5rem;
+}
+
+.nav-el li {
+    list-style: none;
+}
+
+.nav-el li a {
+    text-decoration: none;
+    font-family: 'Red Hat Display';
+    font-size: 1.1rem;
+    color: #000000b0;
+
+}
+
+.nav-el li a:hover {
+    color: rgb(0, 136, 214);
+    transition: 0.15s;
+}
+
+.nav-el li:last-child {
+    color: #000000b0;
+    font-size: 1.3rem;
+}
+
+.landing-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+.landing-img img {
+    max-width: 60%;
+    pointer-events: none;
+}
+
+
+@media all and (max-width: 900px) {
+    .landing-img img {
+        min-width: 80vw;
+    }
+
+}
+
+@media all and (max-width: 500px) {
+    .landing-img img {
+        min-width: 95vw;
+    }
+
+}
+
+.landing-desc {
+    margin-top: 1.5rem;
+    text-align: center;
+    font-family: 'Red Hat Display';
+    color: rgba(22, 22, 22, 0.733);
+}
+
+.landing-desc h1 {
+    font-weight: 800;
+    font-size: 3rem;
+    letter-spacing: 1px;
+}
+
+.landing-desc p {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+.landing-desc button {
+    padding: .6rem 1rem;
+    background: rgb(30, 129, 221);
+    border: none;
+    border-radius: .3rem;
+    font-weight: 600;
+    font-family: 'red hat display';
+    font-size: 1.1rem;
+    color: #fff;
+    margin-top: 1rem;
+}
+
+.landing-desc button:hover {
+    background: #222;
+    transition: all 0.2s;
+}
