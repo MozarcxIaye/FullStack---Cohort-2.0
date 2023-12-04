@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terminal Clock || Assignment 3</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            height: 100%;
+            width: 100%;
+        }
+
+        .container {
+            height: 100%;
+            width: 100%;
+            background: #222;
+            color: #e2e2e2;
+            font-family: 'Poppins', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .number {
+            font-size: 5rem;
+            font-weight: 700;
+            -webkit-text-fill-color: #222;
+            -webkit-text-stroke-width: 2px;
+            -webkit-text-stroke-color: #e2e2e2;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <span class="terminalClock number">
+        </span>
+    </div>
+
+    <script src="TerminalClock.js"></script>
+</body>
+
+</html>
